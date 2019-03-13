@@ -25,8 +25,8 @@ for k = 1:1:K
            
             rows = numrows:(numrows + numel(y)-1);
    
-            r(rows) = Wt2*e;  
-     
+            r(rows) = Wt2*e;
+
             A(rows, rob1.range) = Wt2*J_e_rob1;
             A(rows, rob2.range) = Wt2*J_e_rob2;
             
@@ -43,7 +43,6 @@ for k = 1:1:K
            rows = numrows:(numrows + numel(y)-1);
             
            r(rows) = Wt2*e;
-             
           
            A(rows, rob.range) = Wt2*J_e_rob;
            A(rows, lmk.range) = Wt2*J_e_lmk;
@@ -65,6 +64,7 @@ for k = 1:1:K
    end      
    
    numrows = numrows + numel(y);
+  % dlmwrite('matrix.txt', Wt2*J_e_rob,'-append', 'precision', '%.1f', 'delimiter','\t')
     
 end
     
