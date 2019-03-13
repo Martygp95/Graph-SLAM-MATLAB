@@ -13,12 +13,17 @@ Encara s'han d'ajustar les distàncies correctament respecte al dibuix inicial.
 He ajustat les distàncies i angles dels factors segons el mapa. Les covariances les he mantingut iguals a totes les mesures (factors), tant de moviment com de landmark (al principi les que vam posar a classe)
 
 Covariances moviment:
+
 x: 10 cm
+
 y: 10 cm
+
 angle: 2º
 
 Covariances Landmarks:
+
 distància: 1cm
+
 angle: 5º
 
 El resultat és el següent:
