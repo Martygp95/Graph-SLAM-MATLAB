@@ -35,7 +35,7 @@ Veiem que l'estat 2 queda una mica allunyat de la posició on hauria d'estar, ve
 
 ## Ajustament de covariances
 
-Per tal d'ajustar aquestes posicions, he cregut convenient canviar la covariança dels estats 8 i 9 a 10 cm, degut a que els sensors làser a més distància siguin més imprecisos; les altres les he deixat igual (angle) degut a que els sensors làser tenen molta precisió en angle. El resultat final és el següent:
+Per tal d'ajustar aquestes posicions, he cregut convenient canviar la covariança dels estats 8 i 9 a 10 cm, degut a que els sensors làser tenen més imprecisió en distància, per tant ens creiem més la distància més petita, que seria la del factor 10 (1cm de covariança); les altres les he deixat igual (angle) degut a que els sensors làser tenen molta precisió en angle. El resultat final és el següent:
 
 ![alt text](Imatges/i3.png)
 
